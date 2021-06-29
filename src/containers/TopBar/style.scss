@@ -1,0 +1,36 @@
+.MuiContainer-root {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.root_appbar {
+    display: flex;
+    flex-direction: row !important;
+    background: linear-gradient(90.96deg, rgba(48, 118, 222, 0.4) 1.05%, rgba(241, 108, 11, 0.13) 99.89%) !important;
+    height: 89px;
+    align-items: center;
+    justify-content: space-around;
+}
+.second {
+    display: flex;
+    align-items: center;
+    .mob {
+        width: 158px;
+        height: 41px;
+        display: none;
+    }
+}
+.title {
+    font-style: normal;
+    font-size: 25px;
+    line-height: 33px;
+    color: #022742;
+}
+.MuiPaper-elevation8 {
+    top: 6% !important;
+}
+@media (min-width: 762px) {
+    .mob {
+        display: block !important;
+    }
+}

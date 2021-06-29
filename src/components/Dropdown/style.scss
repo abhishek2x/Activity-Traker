@@ -1,0 +1,69 @@
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+    // width: 320px;
+    // height: 418px;
+
+    background: #ffffff;
+    box-shadow: 0px -7px 15px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+}
+
+// .MuiFilledInput-underline {
+//     display: none;
+// }
+
+.select_box {
+    background-color: white;
+    border: 1.5px solid #054db9;
+    box-sizing: border-box;
+    border-radius: 22px;
+    width: fit-content;
+    height: 30px;
+    margin-top: 10px;
+}
+
+li.MuiListItem-gutters {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.MuiInputBase-input.MuiInput-input {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #054db9;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 3px;
+}
+
+.MuiSelect-select {
+    margin: 10px !important;
+}
+
+.MuiSelect-select:focus {
+    border-radius: 0;
+    background-color: transparent !important;
+}
+
+.MuiPaper-rounded {
+    top: 155px !important;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "chartData": {
+            "totalTime": {
+                "total": "130"
+            },
+            "studyTime": {
+                "total": "20"
+            },
+            "classTime": {
+                "total": "80"
+            },
+            "freeTime": {
+                "total": "30"
+            }
+        },
+        "freeTimeMaxUsage": "120",
+        "deviceUsage": {
+            "totalTime": {
+                "mobile": "40",
+                "laptop": "90"
+            },
+            "studyTime": {
+                "mobile": "10",
+                "laptop": "10"
+            },
+            "classTime": {
+                "mobile": "0",
+                "laptop": "80"
+            },
+            "freeTime": {
+                "mobile": "30",
+                "laptop": "0"
+            }
+        }
+    }
+]
