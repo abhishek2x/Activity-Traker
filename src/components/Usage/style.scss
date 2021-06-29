@@ -1,0 +1,45 @@
+.usage_root {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    .head_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        color: #201f1e;
+    }
+
+    // .inner_div {
+    //     display: flex;
+    //     flex-direction: column;
+
+    //     .ad1_phone {
+    //         margin: 10px 0;
+    //         padding-left: 10px;
+    //         width: 171px;
+    //         height: 84px;
+    //     }
+
+    //     .adi_laptop {
+    //         margin: 20px 0;
+    //         width: 264px;
+    //         height: 86px;
+    //     }
+    // }
+
+    .bottom_div {
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+
+        .bottom_link {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #2b73de;
+        }
+    }
+}
