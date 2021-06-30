@@ -95,6 +95,12 @@ components callbacks and flowing data into children containers.
 
 ---
 
+## Live Website
+
+Live: <a href="https://user-activity-tracker.netlify.app/">https://user-activity-tracker.netlify.app/</a>
+
+---
+
 ## References
 
 The Style Guide is followed from [react-style-guide](https://github.com/pagarme/react-style-guide)
