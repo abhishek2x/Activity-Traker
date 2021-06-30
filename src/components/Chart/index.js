@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Doughnut } from "react-chartjs-2";
-import "./style.js";
+import "./style.scss";
 
 function Chart({ DATA_ARRAY, LABEL_ARRAY, BG_ARRAY }) {
-  const [data, setdata] = useState({
+  const [data] = useState({
     labels: LABEL_ARRAY,
     cutoutPercentage: 10,
     datasets: [
@@ -18,11 +18,13 @@ function Chart({ DATA_ARRAY, LABEL_ARRAY, BG_ARRAY }) {
   return (
     <Doughnut
       data={data}
+      borderW
       options={{
         responsive: true,
         maintainAspectRatio: true,
         legend: {
-          position: "left",
+          display: true,
+          position: "bottom",
         },
       }}
     />

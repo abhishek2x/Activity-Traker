@@ -1,5 +1,5 @@
 import { Container } from "@material-ui/core";
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import "./style.scss";
 import Chart from "../Chart/index";
 import { SelectedContext } from "../../context/SelectedContext";

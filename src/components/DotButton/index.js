@@ -31,22 +31,23 @@ export default function DotButton() {
         <MoreHorizIcon />
       </Button>
       <Menu
+        className="top_dropdown"
         id="simple-menu"
         anchorEl={anchorEl}
         keepMounted
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>
-          <img className="icon-top" src={Image1} alt="icon-topp" />
+        <MenuItem onClick={handleClose} className="list-ele">
+          <img src={Image1} alt="icon-topp" />
           Add Device
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <img className="icon-top" src={Image2} alt="icon-topp" />
+        <MenuItem onClick={handleClose} className="list-ele">
+          <img src={Image2} alt="icon-topp" />
           Edit Details
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <img className="icon-top" src={Image3} alt="icon-topp" />
+        <MenuItem onClick={handleClose} className="list-ele">
+          <img src={Image3} alt="icon-topp" />
           Delete Child
         </MenuItem>
       </Menu>
