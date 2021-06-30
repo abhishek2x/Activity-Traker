@@ -1,8 +1,6 @@
 import { Container } from "@material-ui/core";
 import React from "react";
 import "./style.scss";
-import Phone from "../../static/images/adi-phone.svg";
-import Laptop from "../../static/images/adi-laptop.svg";
 import Usage from "../../static/images/Usage.svg";
 
 function Devices() {

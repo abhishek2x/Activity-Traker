@@ -26,12 +26,6 @@ export default function Dropdown() {
   const [selected, setSelected] = useState("All");
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // useEffect(() => {
-  //   data.map((item) => {
-  //     console.log(item.title);
-  //   });
-  // }, []);
-
   const handleChange = (event) => {
     const sample = data;
     sample.forEach((element) => {
